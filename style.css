@@ -1,0 +1,63 @@
+.{
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+}
+.cal_layout{
+
+	height:360px;
+	width: 300px;
+	display: flex;
+	
+	
+}
+.main_layout{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main_box{
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.button{
+
+	font-size: 20px;
+	height: 80px;
+	background-color:"#ede1de";
+	width: 25%;
+
+
+	
+}
+.button:hover{
+	opacity: 70%;
+}
+.cancel{
+	width:50%;
+
+}
+.zero{
+	width:75%;
+}
+.output{
+	width: 100%;
+	height:80px;
+	text-align: right;
+	background-color:black;
+	color:white;
+	font-size: 30px;
+	font-color:white;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.operator{
+	background: orange;
+	color:white;
+}
